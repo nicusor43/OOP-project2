@@ -51,25 +51,31 @@ build cmake_object_order_depends_target_OOPproj2: phony || .
 
 build CMakeFiles/OOPproj2.dir/main.cpp.o: CXX_COMPILER__OOPproj2_unscanned_Debug /home/nicusor43/Documents/FACULTATE/SEM$ 2/POO/OOPproj2/main.cpp || cmake_object_order_depends_target_OOPproj2
   DEP_FILE = CMakeFiles/OOPproj2.dir/main.cpp.o.d
-  FLAGS = -g -fcolor-diagnostics
+  FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-function -Wno-unused-but-set-parameter -Wno-unused-local-typedefs -Wno-unused-private-field -Wno-unused-const-variable -Wno-unused-value -fsanitize=address -g -g -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OOPproj2.dir
   OBJECT_FILE_DIR = CMakeFiles/OOPproj2.dir
 
 build CMakeFiles/OOPproj2.dir/Card.cpp.o: CXX_COMPILER__OOPproj2_unscanned_Debug /home/nicusor43/Documents/FACULTATE/SEM$ 2/POO/OOPproj2/Card.cpp || cmake_object_order_depends_target_OOPproj2
   DEP_FILE = CMakeFiles/OOPproj2.dir/Card.cpp.o.d
-  FLAGS = -g -fcolor-diagnostics
+  FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-function -Wno-unused-but-set-parameter -Wno-unused-local-typedefs -Wno-unused-private-field -Wno-unused-const-variable -Wno-unused-value -fsanitize=address -g -g -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OOPproj2.dir
   OBJECT_FILE_DIR = CMakeFiles/OOPproj2.dir
 
 build CMakeFiles/OOPproj2.dir/CardStandard.cpp.o: CXX_COMPILER__OOPproj2_unscanned_Debug /home/nicusor43/Documents/FACULTATE/SEM$ 2/POO/OOPproj2/CardStandard.cpp || cmake_object_order_depends_target_OOPproj2
   DEP_FILE = CMakeFiles/OOPproj2.dir/CardStandard.cpp.o.d
-  FLAGS = -g -fcolor-diagnostics
+  FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-function -Wno-unused-but-set-parameter -Wno-unused-local-typedefs -Wno-unused-private-field -Wno-unused-const-variable -Wno-unused-value -fsanitize=address -g -g -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OOPproj2.dir
   OBJECT_FILE_DIR = CMakeFiles/OOPproj2.dir
 
 build CMakeFiles/OOPproj2.dir/CardPremium.cpp.o: CXX_COMPILER__OOPproj2_unscanned_Debug /home/nicusor43/Documents/FACULTATE/SEM$ 2/POO/OOPproj2/CardPremium.cpp || cmake_object_order_depends_target_OOPproj2
   DEP_FILE = CMakeFiles/OOPproj2.dir/CardPremium.cpp.o.d
-  FLAGS = -g -fcolor-diagnostics
+  FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-function -Wno-unused-but-set-parameter -Wno-unused-local-typedefs -Wno-unused-private-field -Wno-unused-const-variable -Wno-unused-value -fsanitize=address -g -g -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/OOPproj2.dir
+  OBJECT_FILE_DIR = CMakeFiles/OOPproj2.dir
+
+build CMakeFiles/OOPproj2.dir/Menu.cpp.o: CXX_COMPILER__OOPproj2_unscanned_Debug /home/nicusor43/Documents/FACULTATE/SEM$ 2/POO/OOPproj2/Menu.cpp || cmake_object_order_depends_target_OOPproj2
+  DEP_FILE = CMakeFiles/OOPproj2.dir/Menu.cpp.o.d
+  FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-function -Wno-unused-but-set-parameter -Wno-unused-local-typedefs -Wno-unused-private-field -Wno-unused-const-variable -Wno-unused-value -fsanitize=address -g -g -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OOPproj2.dir
   OBJECT_FILE_DIR = CMakeFiles/OOPproj2.dir
 
@@ -81,8 +87,8 @@ build CMakeFiles/OOPproj2.dir/CardPremium.cpp.o: CXX_COMPILER__OOPproj2_unscanne
 #############################################
 # Link the executable OOPproj2
 
-build OOPproj2: CXX_EXECUTABLE_LINKER__OOPproj2_Debug CMakeFiles/OOPproj2.dir/main.cpp.o CMakeFiles/OOPproj2.dir/Card.cpp.o CMakeFiles/OOPproj2.dir/CardStandard.cpp.o CMakeFiles/OOPproj2.dir/CardPremium.cpp.o
-  FLAGS = -g
+build OOPproj2: CXX_EXECUTABLE_LINKER__OOPproj2_Debug CMakeFiles/OOPproj2.dir/main.cpp.o CMakeFiles/OOPproj2.dir/Card.cpp.o CMakeFiles/OOPproj2.dir/CardStandard.cpp.o CMakeFiles/OOPproj2.dir/CardPremium.cpp.o CMakeFiles/OOPproj2.dir/Menu.cpp.o
+  FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-function -Wno-unused-but-set-parameter -Wno-unused-local-typedefs -Wno-unused-private-field -Wno-unused-const-variable -Wno-unused-value -fsanitize=address -g -g
   OBJECT_DIR = CMakeFiles/OOPproj2.dir
   POST_BUILD = :
   PRE_LINK = :
